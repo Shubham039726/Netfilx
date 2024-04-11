@@ -1,0 +1,412 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    background-image: url(background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    overflow: hidden;
+}
+.navbar{
+    height: 92px;
+    width: 100%;                 
+}
+.nav-part{
+    display: flex;
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    margin-top: 22px;
+}
+.logo-part{
+    height: 40px;
+    width: 50%;
+}
+.logo{
+    position: absolute;
+    background-image: url(netflix-logo-text-emblem-31.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 148px;
+    margin-left: 150px;
+}
+.lang{
+    height: 35px;
+    width: 130px;
+    padding: 2px 20px 0px;
+    border-radius: 5px;
+    font-size: 17px;
+    transform: translateX(200px);
+    background: transparent;
+    color: white;
+}
+.sing-up{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    text-decoration: none;
+    color: #eeee;
+    font-size: 17px;
+    padding:5px 2px 0px;
+    font-weight: 500;
+    margin-left: 20px;
+    border-radius: 5px;
+   transform: translateX(200PX);
+}
+.content{
+    margin-top: 180px;
+    text-align: center;
+    color: white;
+}
+.heading{
+    font-size: 55px;
+    font-family: sans-serif;
+}
+.deltils{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.deltils{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 549;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.email-box{
+    height: 20px;
+    width: 400px;
+    padding: 22px 16px 8px ;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+    border: solid white 0.5px;
+}
+.email-box::placeholder{
+    font-size: 17px;
+    filter: brightness(500%);
+}
+.sing-in-button{
+    height: 55px;
+    width: 200px;
+    margin-left: 5px;
+    padding:8px 16px 8px ;
+    font-size: 25px;
+    font-weight: 549;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.line1{
+    margin-top: 80px;
+    width: 99.5%;;
+    border: solid #555555  4px;
+    margin-top: -6px;
+}
+.tv-show{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+   color: white;
+   overflow: hidden;
+}
+.tv-show-text{
+    height: 192px;
+    width: 500px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50px;
+}
+.tv{
+    height: 363px;
+    width: 484px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.tv-image{
+    background-image: url(tv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 45px;
+    position: absolute;
+    
+}
+.video1{
+    height: 210px;
+    width: 375px;
+    margin-top: 110px;
+    margin-left: 65px;
+   
+}
+.line2{
+    width: 99.5%;
+    border: solid #555555  4px;
+}
+.download-show{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+   color: white;
+   overflow: hidden;
+}
+.download{
+    height: 300px;
+    width: 45%;
+   position: relative;
+   margin-left: 50px;
+   transform: translatex(5px);
+   transform: translatey(120PX);
+}
+.download-image{
+    background-image: url(mobile-0819.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 550px;
+    height: 300px;
+    width: 500px;
+    background-color: red;
+    margin-left: 100px;
+}
+.stranger-image{
+ height: 96px;
+ width: 300px;
+ border: #555555 solid 2px;
+ border-radius: 5px;
+ margin-top: -50px;
+ margin-left: 195px;
+ background-color: black;
+}
+#stranger-image{
+    background-image: url(boxshot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    height: 96px;
+    width: 90px;
+    position: relative;
+    margin-left: -10px;
+}
+.download-text{
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    transform: translatex(670px);
+    margin-top: -200px;
+}
+.name{
+    font-size: 18px;
+    margin-top: -70px;
+    margin-left: 75px;
+}
+.down{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 7px;
+    margin-top: -1px;
+    color: lightblue;
+}
+.line3{
+    width: 99.5%;
+    border: solid #555555  4px;
+}
+.watch{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+   color: white;
+   overflow: hidden;
+  
+}
+.watch-where{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.apple-tv{
+    height: 300px;
+    width: 318px;
+    position: absolute;
+    margin-left: 373px;
+    margin-top: 29px;
+}
+.apple-tv-img{
+    background-image: url(device-pile-in.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50%;
+}
+.line4{
+    width: 99.5%;
+    border: solid #555555  4px;
+}
+.kid{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+   color: white;
+   overflow: hidden;
+}
+.kid-sec{
+    height: 300px;
+    width: 600px;
+  position: absolute;
+    margin-top: 170px;
+}
+.kid-img{
+    height: 370px;
+    width: 500px;
+    background-image: url(AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;  
+    margin-top: -70px;
+    margin-left: 50px;
+}
+.profile-kid{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 120px;
+}
+.line5{
+    width: 99.5%;
+    border: solid #555555  4px;
+}
+
+.wrapper{
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    margin-top: -50px;
+    height: 850px;
+    overflow: hidden;
+}
+.Frequently-heading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    transform: translatey(20px);
+    
+}
+.accordion{
+    height: 84px;
+    width: 1250px;
+    font-size: 24px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    color: white;
+    background-color: #353839;
+}
+.accordion,.icon{
+    font-size: 35px;
+    font-weight: 100;
+}
+.pannel{
+   overflow: hidden;
+   display: none;
+}
+.pannel,.question-sec{
+    height: 245px;
+    width: 1250px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 24px;
+    background-color: #353839;
+}
+.feq{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.feq,.active{
+ border: none;
+}
+.line6{
+    width: 99.5%;
+    border: solid #555555  4px;
+    
+}
+.search-box2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.email-box2{
+    height: 20px;
+    width: 400px;
+    padding: 22px 16px 8px ;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+    border: solid white 0.5px;
+    opacity: 1;
+}
+.email-box2::placeholder{
+    font-size: 17px;
+    filter: brightness(500%);
+}
+.sing-in-button2{
+    height: 55px;
+    width: 200px;
+    margin-left: 5px;
+    padding:8px 16px 8px ;
+    font-size: 25px;
+    font-weight: 549;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.deltils2{
+    font-size: 24px;
+    text-align: center; 
+}
+footer{
+    font-family: sans-serif;
+    color: #eeee;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.contect-num{
+    width: 885px;
+    height: 31px;
+    font-size: 17px;
+}
+.footer-part{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text,a{
+  color: #eeee;
+}
+.netfilx-india{
+    margin-top: 50px;
+    margin-left: 50px;
+}
